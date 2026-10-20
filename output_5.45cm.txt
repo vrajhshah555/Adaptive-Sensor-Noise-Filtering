@@ -1,0 +1,207 @@
+>> MEASUREMENT COMPLETED
+============================================
+Valid readings collected : 1000
+Acquisition time         : 22.88 seconds
+
+============================================
+ DISTANCE STATISTICS
+============================================
+Number of readings        : 1000
+Mean / estimated distance : 5.4316 cm
+Median                    : 5.5700 cm
+Mode                      : 4.6100 cm
+Sample variance           : 0.550641 cm^2
+Standard deviation        : 0.742052 cm
+RMS distance              : 5.481965 cm
+Minimum distance          : 4.4900 cm
+Maximum distance          : 6.8900 cm
+Range                     : 2.4000 cm
+First quartile (Q1)       : 4.6100 cm
+Third quartile (Q3)       : 6.1400 cm
+Interquartile range       : 1.5300 cm
+Mean absolute deviation   : 0.656385 cm
+
+Standard error of mean    : 0.023466 cm
+Approx. 95% CI lower      : 5.3856 cm
+Approx. 95% CI upper      : 5.4776 cm
+
+============================================
+ MEASUREMENT NOISE STATISTICS
+============================================
+Mean reference            : 5.4316 cm
+Mean noise                : -0.000000 cm
+Noise variance            : 0.550641 cm^2
+Noise standard deviation  : 0.742052 cm
+Noise RMS                 : 0.741681 cm
+Minimum noise             : -0.941560 cm
+Maximum noise             : 1.458440 cm
+Noise range               : 2.400000 cm
+Median absolute deviation : 0.730000 cm
+Robust noise std estimate : 1.082298 cm
+Noise skewness             : 0.125793
+Noise excess kurtosis      : -1.440444
+Noise 2.5th percentile     : -0.921560 cm
+Noise 97.5th percentile    : 1.138440 cm
+
+============================================
+ FINAL ESTIMATED DISTANCE
+============================================
+Mean measured distance : 5.4316 cm
+============================================
+
+All readings and noise saved to:
+ultrasonic_noise_data.csv
+
+============================================
+ PROJECT SUMMARY
+============================================
+Real readings collected  : 1000
+Estimated distance       : 5.4316 cm
+Noise standard deviation : 0.742052 cm
+Noise variance           : 0.550641 cm^2
+
+Generated graphs:
+1. Raw distance versus time
+2. Noise versus time
+3. Noise probability distribution
+4. Distance probability distribution
+5. Noise autocorrelation
+6. Measurement box plot
+
+Dataset: ultrasonic_noise_data.csv
+============================================
+
+============================================
+ ADAPTIVE NOISE CHARACTERIZATION
+============================================
+Rolling window size          : 25 readings
+Mean adaptive noise std      : 0.165628 cm
+Minimum adaptive noise std   : 0.100000 cm
+Maximum adaptive noise std   : 1.304688 cm
+Mean adaptive noise variance : 0.056146 cm^2
+Minimum adaptive R           : 0.010000 cm^2
+Maximum adaptive R           : 1.702211 cm^2
+
+============================================
+ KALMAN FILTER PERFORMANCE
+============================================
+Raw mean distance             : 5.431560 cm
+Filtered mean distance        : 5.440675 cm
+Raw variance                  : 0.550641 cm^2
+Filtered variance             : 0.499851 cm^2
+Raw standard deviation        : 0.742052 cm
+Filtered standard deviation   : 0.707001 cm
+Raw range                     : 2.400000 cm
+Filtered range                : 2.037134 cm
+Standard deviation reduction : 4.72%
+Mean Kalman gain              : 0.531492
+============================================
+
+Extended results saved to: ultrasonic_adaptive_filter_results.csv
+Original file ultrasonic_noise_data.csv was not changed.
+
+Interpretation notes:
+- Adaptive R is estimated from recent reading variability using MAD.
+- Q_process is fixed; only the measurement-noise estimate R adapts.
+- Lower filtered standard deviation means smoother output, not necessarily higher accuracy.
+- To assess accuracy, compare raw and filtered values with an independently measured wall distance.
+- The filter assumes the wall distance is approximately stationary.
+S============================================
+ MEASUREMENT COMPLETED
+============================================
+Valid readings collected : 1000
+Acquisition time         : 22.88 seconds
+
+============================================
+ DISTANCE STATISTICS
+============================================
+Number of readings        : 1000
+Mean / estimated distance : 5.4316 cm
+Median                    : 5.5700 cm
+Mode                      : 4.6100 cm
+Sample variance           : 0.550641 cm^2
+Standard deviation        : 0.742052 cm
+RMS distance              : 5.481965 cm
+Minimum distance          : 4.4900 cm
+Maximum distance          : 6.8900 cm
+Range                     : 2.4000 cm
+First quartile (Q1)       : 4.6100 cm
+Third quartile (Q3)       : 6.1400 cm
+Interquartile range       : 1.5300 cm
+Mean absolute deviation   : 0.656385 cm
+
+Standard error of mean    : 0.023466 cm
+Approx. 95% CI lower      : 5.3856 cm
+Approx. 95% CI upper      : 5.4776 cm
+
+============================================
+ MEASUREMENT NOISE STATISTICS
+============================================
+Mean reference            : 5.4316 cm
+Mean noise                : -0.000000 cm
+Noise variance            : 0.550641 cm^2
+Noise standard deviation  : 0.742052 cm
+Noise RMS                 : 0.741681 cm
+Minimum noise             : -0.941560 cm
+Maximum noise             : 1.458440 cm
+Noise range               : 2.400000 cm
+Median absolute deviation : 0.730000 cm
+Robust noise std estimate : 1.082298 cm
+Noise skewness             : 0.125793
+Noise excess kurtosis      : -1.440444
+Noise 2.5th percentile     : -0.921560 cm
+Noise 97.5th percentile    : 1.138440 cm
+
+============================================
+ FINAL ESTIMATED DISTANCE
+============================================
+Mean measured distance : 5.4316 cm
+============================================
+
+All readings and noise saved to:
+ultrasonic_noise_data.csv
+
+============================================
+ PROJECT SUMMARY
+============================================
+Real readings collected  : 1000
+Estimated distance       : 5.4316 cm
+Noise standard deviation : 0.742052 cm
+Noise variance           : 0.550641 cm^2
+
+Generated graphs:
+1. Raw distance versus time
+2. Noise versus time
+3. Noise probability distribution
+4. Distance probability distribution
+5. Noise autocorrelation
+6. Measurement box plot
+
+Dataset: ultrasonic_noise_data.csv
+============================================
+
+============================================
+ ADAPTIVE NOISE CHARACTERIZATION
+============================================
+Rolling window size          : 25 readings
+Mean adaptive noise std      : 0.165628 cm
+Minimum adaptive noise std   : 0.100000 cm
+Maximum adaptive noise std   : 1.304688 cm
+Mean adaptive noise variance : 0.056146 cm^2
+Minimum adaptive R           : 0.010000 cm^2
+Maximum adaptive R           : 1.702211 cm^2
+
+============================================
+ KALMAN FILTER PERFORMANCE
+============================================
+Raw mean distance             : 5.431560 cm
+Filtered mean distance        : 5.440675 cm
+Raw variance                  : 0.550641 cm^2
+Filtered variance             : 0.499851 cm^2
+Raw standard deviation        : 0.742052 cm
+Filtered standard deviation   : 0.707001 cm
+Raw range                     : 2.400000 cm
+Filtered range                : 2.037134 cm
+Standard deviation reduction : 4.72%
+Mean Kalman gain              : 0.531492
+============================================
