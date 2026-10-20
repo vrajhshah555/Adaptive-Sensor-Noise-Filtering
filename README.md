@@ -3,7 +3,7 @@ An Arduino-based project focused on ultrasonic distance measurement using the HC
 # Adaptive Noise Characterization and Smart Sensor Filtering
 
 ## Overview
-An academic project for Probability and Random Processes that studies measurement variability in ultrasonic distance sensing and applies adaptive Kalman filtering to reduce fluctuations in sensor readings.
+This academic project, completed as part of Probability and Random Processes, focuses on analyzing measurement variability and noise in ultrasonic distance sensing. Using an Arduino Uno and HC-SR04 sensor, repeated distance measurements were collected and analyzed in MATLAB. Statistical techniques were used to characterize noise, and an adaptive Kalman filter was implemented to reduce fluctuations in sensor readings. The project demonstrates the practical application of probability, statistical analysis, and filtering techniques to sensor data.
 
 ## Hardware
 - Arduino Uno
