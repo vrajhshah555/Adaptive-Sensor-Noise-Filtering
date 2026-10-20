@@ -1,5 +1,5 @@
-# adaptive-sensor-noise-filtering
-Arduino-based ultrasonic distance measurement, statistical noise characterization, and adaptive Kalman filtering using MATLAB.
+# Adaptive-Sensor-Noise-Filtering
+An Arduino-based project focused on ultrasonic distance measurement using the HC-SR04 sensor and data acquisition through MATLAB. Statistical analysis was performed to characterize measurement noise and variability using key statistical parameters. A rolling-window Median Absolute Deviation (MAD) approach was used to estimate measurement noise, followed by adaptive Kalman filtering to reduce fluctuations in sensor readings. Raw and filtered measurements were compared to evaluate the filter's performance.
 # Adaptive Noise Characterization and Smart Sensor Filtering
 
 ## Overview
